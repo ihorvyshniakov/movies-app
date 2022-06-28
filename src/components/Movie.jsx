@@ -1,23 +1,36 @@
 import React from 'react';
 
-const Movie = ({ film }) => {
+function Movie(props) {
+	const {
+		Title: title,
+		Year: year,
+		imbdID: id,
+		Type: type,
+		Poster: poster,
+	} = props;
+
 	return (
-		<div className='card col s12 m6 xl4'>
-			<div className='card-image'>
-				<img style={{ maxHeight: 400 }} src={film.Poster} alt='poster' />
+		<div id={id} className='card movie'>
+			<div className='card-image waves-effect waves-block waves-light'>
+				{poster === 'N/A' ? (
+					<img
+						src={`https://via.placeholder.com/300x400?text=${title}`}
+						alt=''
+					/>
+				) : (
+					<img className='activator' src={poster} alt='poster ' />
+				)}
 			</div>
 			<div className='card-content'>
-				<span className='card-title'>{film.Title}</span>
-				<div
-					className='wrap'
-					style={{ display: 'flex', justifyContent: 'space-between' }}
-				>
-					<span>{film.Type}</span>
-					<p>{film.Year}</p>
-				</div>
+				<span className='card-title activator grey-text text-darken-4'>
+					{title}
+				</span>
+				<p>
+					{type} <span className='right'>{year}</span>
+				</p>
 			</div>
 		</div>
 	);
-};
+}
 
-export default Movie;
+export { Movie };
