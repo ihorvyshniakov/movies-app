@@ -3,6 +3,8 @@ import { Movies } from '../components/Movies';
 import { Search } from '../components/Search';
 import { Preloader } from '../components/Preloader';
 
+// TODO: Fix bug of filtering
+
 class Main extends React.Component {
 	state = {
 		movies: [],
