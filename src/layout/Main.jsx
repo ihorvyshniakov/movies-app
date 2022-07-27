@@ -8,10 +8,14 @@ class Main extends React.Component {
 		movies: [],
 	};
 
-	componentDidMount() {
-		fetch('http://www.omdbapi.com/?apikey=4abf06ce&s=matrix&page=2')
+	searchMovies = (search = 'matrix') => {
+		fetch(`http://www.omdbapi.com/?apikey=4abf06ce&s=${search}`)
 			.then(response => response.json())
 			.then(data => this.setState({ movies: data.Search }));
+	};
+
+	componentDidMount() {
+		this.searchMovies();
 	}
 
 	render() {
@@ -19,7 +23,7 @@ class Main extends React.Component {
 
 		return (
 			<main className='container content'>
-				<Search />
+				<Search searchMovies={this.searchMovies} />
 				{movies.length ? <Movies movies={movies} /> : <Preloader />}
 			</main>
 		);
