@@ -34,3 +34,12 @@ nav {
 	right: 0;
 	transform: translateY(-50%);
 }
+
+.filter {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.filter label {
+	display: inline-block;
+}

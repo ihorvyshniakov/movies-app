@@ -7,7 +7,13 @@ function Header() {
 				</a>
 				<ul id='nav-mobile' className='right hide-on-small-only'>
 					<li>
-						<a href='/'>Repo</a>
+						<a
+							href='https://github.com/Gramazeka-Reachyourgoals/my-movie-project'
+							target='_blank'
+							rel='noreferrer'
+						>
+							Repo
+						</a>
 					</li>
 				</ul>
 			</div>
