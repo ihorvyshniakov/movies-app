@@ -38,7 +38,7 @@ class Search extends React.Component {
 						className='btn search-btn'
 						onClick={() => this.props.searchMovies(search, type)}
 					>
-						Search
+						Find your movie
 					</button>
 				</div>
 				<div className='filter'>

@@ -8,6 +8,7 @@ const Footer = () => {
 				<a
 					className='grey-text text-lighten-4 right icon-link'
 					target='_blank'
+					rel='noreferrer'
 					href='https://github.com/Gramazeka-Reachyourgoals/my-movie-project'
 				>
 					<GithubSVG className='icon' />
