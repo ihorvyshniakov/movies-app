@@ -1,6 +1,7 @@
 # React movie project
 
-Developed by Vyshniakov Ihor in 2022.
+© 2022 Developed by Vyshniakov Ihor.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## API
