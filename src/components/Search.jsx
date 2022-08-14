@@ -29,7 +29,7 @@ class Search extends React.Component {
 						className='validate'
 						id='email_inline'
 						type='search'
-						placeholder='Search'
+						placeholder='Find your movie'
 						value={search}
 						onChange={e => this.setState({ search: e.target.value })}
 						onKeyDown={this.handleKey}
@@ -38,7 +38,7 @@ class Search extends React.Component {
 						className='btn search-btn'
 						onClick={() => this.props.searchMovies(search, type)}
 					>
-						Find your movie
+						Search
 					</button>
 				</div>
 				<div className='filter'>
