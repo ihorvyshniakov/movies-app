@@ -1,4 +1,4 @@
-# React movie project
+# React movies project
 
 © 2022 Developed by Vyshniakov Ihor.
 
