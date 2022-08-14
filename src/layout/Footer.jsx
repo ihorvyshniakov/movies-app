@@ -1,16 +1,20 @@
-function Footer() {
+import { ReactComponent as GithubSVG } from '../sources/github.svg';
+
+const Footer = () => {
 	return (
-		<footer className='page-footer cyan darken-1'>
-			<div className='footer-copyright'>
-				<div className='container'>
-					© {new Date().getFullYear()} Copyright Text
-					<a className='grey-text text-lighten-4 right' href='#!'>
-						Repo
-					</a>
-				</div>
+		<footer className='page-footer'>
+			<div className='container'>
+				© 2022 Developed by Vyshniakov Ihor
+				<a
+					className='grey-text text-lighten-4 right icon-link'
+					target='_blank'
+					href='https://github.com/Gramazeka-Reachyourgoals/my-movie-project'
+				>
+					<GithubSVG className='icon' />
+				</a>
 			</div>
 		</footer>
 	);
-}
+};
 
 export default Footer;

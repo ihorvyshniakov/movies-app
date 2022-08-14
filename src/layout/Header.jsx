@@ -1,24 +1,27 @@
-function Header() {
+import { ReactComponent as GithubSVG } from '../sources/github.svg';
+
+const Header = () => {
 	return (
-		<nav className='lime'>
-			<div className='nav-wrapper'>
+		<nav className='header'>
+			<div className='nav-wrapper container'>
 				<a href='/' className='brand-logo'>
 					React Movies
 				</a>
-				<ul id='nav-mobile' className='right hide-on-small-only'>
+				<ul id='nav-mobile' className='right'>
 					<li>
 						<a
+							className='icon-link'
 							href='https://github.com/Gramazeka-Reachyourgoals/my-movie-project'
 							target='_blank'
 							rel='noreferrer'
 						>
-							Repo
+							<GithubSVG />
 						</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	);
-}
+};
 
 export default Header;

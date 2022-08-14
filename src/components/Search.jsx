@@ -23,7 +23,7 @@ class Search extends React.Component {
 		const { search, type } = this.state;
 
 		return (
-			<div className='row'>
+			<div className='row search'>
 				<div className='input-field'>
 					<input
 						className='validate'
