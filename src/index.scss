@@ -95,6 +95,10 @@ nav {
 	}
 }
 
+#nav-mobile {
+	position: relative;
+}
+
 main {
 	min-height: calc(100vh - 64px - 60px - 1rem);
 }
