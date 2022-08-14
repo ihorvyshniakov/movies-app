@@ -3,7 +3,7 @@ import { Movies } from '../components/Movies';
 import { Search } from '../components/Search';
 import { Preloader } from '../components/Preloader';
 
-//TODO: -readme.md -add page for exact film
+//TODO: -add page for exact film
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 
