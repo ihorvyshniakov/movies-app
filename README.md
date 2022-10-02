@@ -1,4 +1,4 @@
-# [React movies project](http://my-portfolio.cf/movies-app)
+# [Movies app](http://my-portfolio.cf/movies-app)
 
 © 2022 Developed by Vyshniakov Ihor.
 
