@@ -11,7 +11,7 @@ const Header = () => {
 					<li>
 						<a
 							className='icon-link'
-							href='https://github.com/Gramazeka-Reachyourgoals/my-movie-project'
+							href='https://github.com/ihorvyshniakov/my-movies-project'
 							target='_blank'
 							rel='noreferrer'
 						>
