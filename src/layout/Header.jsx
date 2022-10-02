@@ -11,7 +11,7 @@ const Header = () => {
 					<li>
 						<a
 							className='icon-link'
-							href='https://github.com/ihorvyshniakov/my-movies-project'
+							href='https://github.com/ihorvyshniakov/movies-app'
 							target='_blank'
 							rel='noreferrer'
 						>

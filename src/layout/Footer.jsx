@@ -9,7 +9,7 @@ const Footer = () => {
 					className='grey-text text-lighten-4 right icon-link'
 					target='_blank'
 					rel='noreferrer'
-					href='https://github.com/ihorvyshniakov/my-movies-project'
+					href='https://github.com/ihorvyshniakov/movies-app'
 				>
 					<GithubSVG className='icon' />
 				</a>
