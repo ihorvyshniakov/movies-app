@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/my-movie-project/static/css/main.281062cd.css",
-    "main.js": "/my-movie-project/static/js/main.d24d3902.js",
-    "static/media/not-found.png": "/my-movie-project/static/media/not-found.baea4258499beed9b2da.png",
-    "static/media/github.svg": "/my-movie-project/static/media/github.aca2dd919498b45aa6fd9342002eb189.svg",
-    "index.html": "/my-movie-project/index.html",
-    "main.281062cd.css.map": "/my-movie-project/static/css/main.281062cd.css.map",
-    "main.d24d3902.js.map": "/my-movie-project/static/js/main.d24d3902.js.map"
+    "main.css": "/my-movies-project/static/css/main.281062cd.css",
+    "main.js": "/my-movies-project/static/js/main.bca41825.js",
+    "static/media/not-found.png": "/my-movies-project/static/media/not-found.baea4258499beed9b2da.png",
+    "static/media/github.svg": "/my-movies-project/static/media/github.aca2dd919498b45aa6fd9342002eb189.svg",
+    "index.html": "/my-movies-project/index.html",
+    "main.281062cd.css.map": "/my-movies-project/static/css/main.281062cd.css.map",
+    "main.bca41825.js.map": "/my-movies-project/static/js/main.bca41825.js.map"
   },
   "entrypoints": [
     "static/css/main.281062cd.css",
-    "static/js/main.d24d3902.js"
+    "static/js/main.bca41825.js"
   ]
 }
