@@ -39,12 +39,14 @@ class ItemPage extends React.Component {
 			Type
 		} = movie;
 
-		if (loading) return <PreloaderCircle />;
+		if (loading) {
+			return <PreloaderCircle />;
+		}
 
 		return (
-			<div class='item-page'>
-				<div class='card'>
-					<div class='card-content'>
+			<div className='item-page'>
+				<div className='card'>
+					<div className='card-content'>
 						<h1>{Title}</h1>
 						<p>Year: {Year}</p>
 						<p>Type: {Type}</p>
@@ -53,13 +55,13 @@ class ItemPage extends React.Component {
 						<p>Country: {Country}</p>
 						<p>Writer: {Writer}</p>
 						<p>Rating imdbRating: {imdbRating}</p>
-						<button class='waves-effect waves-light btn'>
+						<button className='waves-effect waves-light btn'>
 							Watch
 						</button>
 					</div>
 				</div>
-				<div class='card'>
-					<div class='card-image'>
+				<div className='card'>
+					<div className='card-image'>
 						<img src={Poster} alt='poster' />
 					</div>
 				</div>

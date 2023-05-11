@@ -1,9 +1,9 @@
 import React from 'react';
 import { Movies } from '../components/Movies';
 import { Search } from '../components/Search';
-import { Preloader } from '../components/Preloader';
 import { Route, Routes } from 'react-router-dom';
 import ItemPage from './ItemPage';
+import { PreloaderCircle } from '../components/PreloaderCircle';
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 
@@ -54,7 +54,7 @@ class Main extends React.Component {
 							<>
 								<Search searchMovies={this.searchMovies} />
 								{loading ? (
-									<Preloader />
+									<PreloaderCircle />
 								) : (
 									<Movies movies={movies} />
 								)}
@@ -64,7 +64,7 @@ class Main extends React.Component {
 					{movies?.map(movie => (
 						<Route
 							key={movie.imdbID}
-							path={`/${movie.imdbID}`}
+							path={`/imbdID-${movie.imdbID}`}
 							element={
 								<ItemPage id={movie.imdbID} movie={movie} />
 							}

@@ -11,7 +11,7 @@ function Movie(props) {
 	} = props;
 
 	return (
-		<Link id={id} className='card movie' to={`/${id}`}>
+		<Link id={id} className='card movie' to={`imbdID-${id}`}>
 			<div className='card-image waves-effect waves-block waves-light'>
 				{poster === 'N/A' ? (
 					<img
