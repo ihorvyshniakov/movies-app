@@ -100,7 +100,16 @@ nav {
 }
 
 main {
-	min-height: calc(100vh - 64px - 60px - 1rem);
+	min-height: calc(100vh - 64px - 64px);
+	padding: 1rem 0;
+}
+
+.circleLoader {
+	min-height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .search {
@@ -145,6 +154,20 @@ footer {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 	gap: 1rem;
+}
+
+.card {
+	display: inline-block;
+}
+
+.item-page {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
+
+	h1 {
+		font-size: 3rem;
+	}
 }
 
 .search-btn {

@@ -1,16 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Movie(props) {
 	const {
 		Title: title,
 		Year: year,
-		imbdID: id,
+		imdbID: id,
 		Type: type,
-		Poster: poster,
+		Poster: poster
 	} = props;
 
 	return (
-		<div id={id} className='card movie'>
+		<Link id={id} className='card movie' to={`imbdID-${id}`}>
 			<div className='card-image waves-effect waves-block waves-light'>
 				{poster === 'N/A' ? (
 					<img
@@ -29,7 +30,7 @@ function Movie(props) {
 					{type} <span className='right'>{year}</span>
 				</p>
 			</div>
-		</div>
+		</Link>
 	);
 }
 
