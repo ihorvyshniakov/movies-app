@@ -1,4 +1,5 @@
 import React from 'react';
+import { PreloaderCircle } from '../components/PreloaderCircle';
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 
@@ -38,9 +39,7 @@ class ItemPage extends React.Component {
 			Type
 		} = movie;
 
-		if (loading) {
-			return <h1>Loading...</h1>;
-		}
+		if (loading) return <PreloaderCircle />;
 
 		return (
 			<div class='item-page'>

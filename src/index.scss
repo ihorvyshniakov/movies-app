@@ -103,6 +103,14 @@ main {
 	min-height: calc(100vh - 64px - 64px);
 }
 
+.circleLoader {
+	min-height: calc(100vh - 64px - 64px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .search {
 	[type='search'] {
 		font-size: 1rem !important;
