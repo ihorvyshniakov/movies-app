@@ -1,4 +1,4 @@
-# [Movies app](http://my-portfolio.cf/movies-app)
+# [Movies app](https://ihorvyshniakov.github.io/movies-app)
 
 © 2022 Developed by Vyshniakov Ihor.
 
